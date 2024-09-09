@@ -35,14 +35,24 @@ export const Portfolio = () => {
                   <img src={images} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://dashbord-dev.netlify.app"> view project </a>
+                    <a href="https://admin-dashbord-ten.vercel.app/"> view project </a>
+                  </div>
+                </div>
+                  <div className="po_item">
+                  <img src={images4} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://ecome19.netlify.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
                   </div>
                 </div>
                 <div className="po_item">
                   <img src={images5} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://guileless-zabaione-2f9115.netlify.app">
+                    <a href="https://ecomercecairostre.netlify.app/">
                       {" "}
                       view project{" "}
                     </a>
@@ -78,16 +88,7 @@ export const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                <div className="po_item">
-                  <img src={images4} alt="" />
-                  <div className="content">
-                    <p> {data.description} </p>{" "}
-                    <a href="https://candid-moxie-bbb2b1.netlify.app">
-                      {" "}
-                      view project{" "}
-                    </a>
-                  </div>
-                </div>
+              
               </div>
             );
           })}
