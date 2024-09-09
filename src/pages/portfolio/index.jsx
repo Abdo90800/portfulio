@@ -4,9 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 import images from "../../images/dashpord.png";
-import images1 from "../../images/0.png";
-import images2 from "../../images/3.png";
-import images3 from "../../images/4.png";
+
 import images4 from "../../images/eco.png";
 import images5 from "../../images/ecomstore.png";
 import images6 from "../../images/weatherpng.png";
@@ -83,36 +81,8 @@ export const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                <div className="po_item">
-                  <img src={images1} alt="" />
-                  <div className="content">
-                    <p> {data.description} </p>{" "}
-                    <a href="https://remarkable-raindrop-fac6bf.netlify.app">
-                      {" "}
-                      view project{" "}
-                    </a>
-                  </div>
-                </div>{" "}
-                <div className="po_item">
-                  <img src={images3} alt="" />
-                  <div className="content">
-                    <p> {data.description} </p>{" "}
-                    <a href="https://vermillion-puffpuff-1b0b1b.netlify.app">
-                      {" "}
-                      view project{" "}
-                    </a>
-                  </div>
-                </div>
-                <div className="po_item">
-                  <img src={images2} alt="" />
-                  <div className="content">
-                    <p> {data.description} </p>{" "}
-                    <a href="https://fabulous-yeot-6d00af.netlify.app">
-                      {" "}
-                      view project{" "}
-                    </a>
-                  </div>
-                </div>
+          
+            
               </div>
             );
           })}
