@@ -10,6 +10,7 @@ import images3 from "../../images/4.png";
 import images4 from "../../images/eco.png";
 import images5 from "../../images/ecomstore.png";
 import images6 from "../../images/weatherpng.png";
+import images7 from "../../images/ask.png";
 
 export const Portfolio = () => {
   return (
@@ -47,6 +48,16 @@ export const Portfolio = () => {
                   <div className="content">
                     <p> {data.description} </p>{" "}
                     <a href="https://e-come19pro.netlify.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>{" "}
+                </div>{" "}
+                <div className="po_item">
+                  <img src={images7} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://vercel.com/abdo90800s-projects/ask-experts-master">
                       {" "}
                       view project{" "}
                     </a>
