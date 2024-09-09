@@ -35,14 +35,27 @@ export const Portfolio = () => {
                   <img src={images} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://admin-dashbord-ten.vercel.app/"> view project </a>
+                    <a href="https://admin-dashbord-ten.vercel.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
                   </div>
                 </div>
-                  <div className="po_item">
+                <div className="po_item">
                   <img src={images4} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://e-commerce-tow-project.vercel.app/">
+                    <a href="https://e-come19pro.netlify.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>{" "}
+                </div>
+                <div className="po_item">
+                  <img src={images4} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://react-weather-pmgohibhf-abdo90800s-projects.vercel.app/">
                       {" "}
                       view project{" "}
                     </a>
@@ -52,7 +65,7 @@ export const Portfolio = () => {
                   <img src={images5} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://e-come19pro.netlify.app/">
+                    <a href="https://e-commerce-tow-project.vercel.app/">
                       {" "}
                       view project{" "}
                     </a>
@@ -88,7 +101,6 @@ export const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              
               </div>
             );
           })}
