@@ -42,7 +42,7 @@ export const Portfolio = () => {
                   <img src={images4} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://ecome19.netlify.app/">
+                    <a href="https://e-commerce-tow-project.vercel.app/">
                       {" "}
                       view project{" "}
                     </a>
@@ -52,7 +52,7 @@ export const Portfolio = () => {
                   <img src={images5} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
-                    <a href="https://ecomercecairostre.netlify.app/">
+                    <a href="https://e-come19pro.netlify.app/">
                       {" "}
                       view project{" "}
                     </a>
