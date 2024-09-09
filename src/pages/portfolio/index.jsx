@@ -9,6 +9,7 @@ import images2 from "../../images/3.png";
 import images3 from "../../images/4.png";
 import images4 from "../../images/eco.png";
 import images5 from "../../images/ecomstore.png";
+import images6 from "../../images/weatherpng.png";
 
 export const Portfolio = () => {
   return (
@@ -52,7 +53,7 @@ export const Portfolio = () => {
                   </div>{" "}
                 </div>
                 <div className="po_item">
-                  <img src={images4} alt="" />
+                  <img src={images6} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
                     <a href="https://react-weather-pmgohibhf-abdo90800s-projects.vercel.app/">
