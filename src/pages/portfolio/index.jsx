@@ -9,6 +9,8 @@ import images4 from "../../images/eco.png";
 import images5 from "../../images/ecomstore.png";
 import images6 from "../../images/weatherpng.png";
 import images7 from "../../images/ask.png";
+import images8 from "../../images/e-tec.png";
+import images9 from "../../images/wolf.png";
 
 export const Portfolio = () => {
   return (
@@ -62,7 +64,7 @@ export const Portfolio = () => {
                   </div>{" "}
                 </div>
                 <div className="po_item">
-                  <img src={images6} alt="" />
+                  <img src={images8} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
                     <a href="https://react-weather-pmgohibhf-abdo90800s-projects.vercel.app/">
@@ -81,8 +83,23 @@ export const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-          
-            
+                <div className="po_item">
+                  <img src={images6} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://e-come-pro.vercel.app/"> view project </a>
+                  </div>
+                </div>
+                <div className="po_item">
+                  <img src={images9} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://wolfsoftwarechallenge.com/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                </div>
               </div>
             );
           })}
