@@ -12,6 +12,8 @@ import images7 from "../../images/ask.png";
 import images8 from "../../images/e-tec.png";
 import images9 from "../../images/wolf.png";
 import images10 from "../../images/ecomercenew.png";
+import doctor1 from "../../images/doctor1.png";
+import doctor2 from "../../images/doctor2.png";
 
 export const Portfolio = () => {
   return (
@@ -36,15 +38,7 @@ export const Portfolio = () => {
               <div key={i}>
                 <div className="po_item">
                   <img src={images} alt="" />
-                  <div className="content">
-                    <p> {data.description} </p>{" "}
-                    <a href="https://admin-dashbord-ten.vercel.app/">
-                      {" "}
-                      view project{" "}
-                    </a>
-                  </div>
-                </div>
-                <div className="po_item">
+                    <div className="po_item">
                   <img src={images10} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
@@ -54,6 +48,24 @@ export const Portfolio = () => {
                     </a>
                   </div>{" "}
                 </div>{" "}
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://admin-dashbord-ten.vercel.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                    <div className="po_item">
+                  <img src={doctor1} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://tahleel-appointment-sawa.vercel.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                </div>
+                </div>
               
                 <div className="po_item">
                   <img src={images6} alt="" />
@@ -87,6 +99,17 @@ export const Portfolio = () => {
                   </div>
                 </div>
                 <div className="po_item">
+                  <img src={doctor2} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://appointment-task.vercel.app/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                </div>
+              
+                <div className="po_item">
                   <img src={images8} alt="" />
                   <div className="content">
                     <p> {data.description} </p>{" "}
@@ -103,6 +126,7 @@ export const Portfolio = () => {
                     </a>
                   </div>
                 </div>
+                
               </div>
             );
           })}
