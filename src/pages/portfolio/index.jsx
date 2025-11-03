@@ -15,6 +15,8 @@ import doctor1 from "../../images/doctor1.png";
 import doctor2 from "../../images/doctor2.png";
 import ecm from "../../images/ecm.png";
 import signature from "../../images/signature.png";
+import fashion from "../../images/gym.png";
+import GYM from "../../images/image.png";
 
 export const Portfolio = () => {
   return (
@@ -42,6 +44,36 @@ export const Portfolio = () => {
                   <div className="content">
                     <p> {data.description} </p>{" "}
                     <a href="https://ecmapp.wolfsoftwarechallenge.com">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                </div>
+                <div className="po_item">
+                  <img src={ecm} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://ecmapp.wolfsoftwarechallenge.com">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                </div>
+                <div className="po_item">
+                  <img src={GYM} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://fashion.wolfsoftwarechallenge.com/">
+                      {" "}
+                      view project{" "}
+                    </a>
+                  </div>
+                </div>
+                <div className="po_item">
+                  <img src={fashion} alt="" />
+                  <div className="content">
+                    <p> {data.description} </p>{" "}
+                    <a href="https://gym.wolfsoftwarechallenge.com/">
                       {" "}
                       view project{" "}
                     </a>
